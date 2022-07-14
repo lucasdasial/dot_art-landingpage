@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../../atoms/Button";
 import { Logo } from "../../atoms/Logo";
+import { SearchBar } from "../../atoms/SearchBar";
 
 export function TopBar() {
   const TopBar = styled.header`
@@ -18,6 +19,7 @@ export function TopBar() {
     <TopBar>
       <TopBarContent className="max-w">
         <Logo />
+        <SearchBar />
         <Button label="Entrar" />
       </TopBarContent>
     </TopBar>
