@@ -12,6 +12,15 @@ export function Button(props: Props) {
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: bold;
+    transition: 200ms;
+
+    &:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 10px 5px 5px var(--grey);
+    }
+    &:active {
+      filter: brightness(1.5);
+    }
   `;
 
   return <Button> {props.label}</Button>;

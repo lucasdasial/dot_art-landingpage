@@ -5,5 +5,5 @@ export function Logo() {
     font-weight: bold;
     font-size: 2rem;
   `;
-  return <TilteLogo>dot Art.</TilteLogo>;
+  return <TilteLogo>Art.</TilteLogo>;
 }

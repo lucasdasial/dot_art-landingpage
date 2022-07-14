@@ -3,8 +3,8 @@ import { Button } from "../../atoms/Button";
 import { Logo } from "../../atoms/Logo";
 import { SearchBar } from "../../atoms/SearchBar";
 
-export function TopBar() {
-  const TopBar = styled.header`
+export function TopSection() {
+  const TopContainer = styled.header`
     height: 80px;
     width: 100%;
     padding: 16px;
@@ -16,12 +16,12 @@ export function TopBar() {
   `;
 
   return (
-    <TopBar>
+    <TopContainer>
       <TopBarContent className="max-w">
         <Logo />
         <SearchBar />
         <Button label="Entrar" />
       </TopBarContent>
-    </TopBar>
+    </TopContainer>
   );
 }
