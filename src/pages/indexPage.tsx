@@ -1,5 +1,7 @@
 import styled from "styled-components";
+import { MiniGallery } from "../components/molecules/MiniGallery";
 import { IntroSection } from "../components/organisms/IntroSection";
+import { SubIntroSection } from "../components/organisms/SubIntroSection";
 import { TopSection } from "../components/organisms/TopSection";
 
 export function InitialPage() {
@@ -15,6 +17,7 @@ export function InitialPage() {
       <TopSection />
       <Content>
         <IntroSection />
+        <SubIntroSection />
       </Content>
     </div>
   );
