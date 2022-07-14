@@ -6,13 +6,13 @@ export function IntroStatusGroup() {
     margin-top: 36px;
     display: flex;
     gap: 47px;
-    padding: 16px;
+    padding: 1rem;
   `;
   return (
     <StatusGroup>
-      <IntroStatus title="2 mil" label="artistas" />
-      <IntroStatus title="7 mil" label="vendas" />
-      <IntroStatus title="16 mil" label="avaliações" />
+      <IntroStatus title="2000" label="artistas" />
+      <IntroStatus title="7000" label="vendas" />
+      <IntroStatus title="16000" label="avaliações" />
     </StatusGroup>
   );
 }

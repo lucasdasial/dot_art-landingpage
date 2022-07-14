@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../../atoms/Button";
 import { Logo } from "../../atoms/Logo";
-import { SearchBar } from "../../atoms/SearchBar";
+import { SearchBar } from "../../molecules/SearchBar";
 
 export function TopSection() {
   const TopContainer = styled.header`
@@ -13,10 +13,11 @@ export function TopSection() {
   const TopBarContent = styled.div`
     display: flex;
     justify-content: space-between;
+    align-items: center;
   `;
 
   return (
-    <TopContainer>
+    <TopContainer data-aos="fade-up">
       <TopBarContent className="max-w">
         <Logo />
         <SearchBar />

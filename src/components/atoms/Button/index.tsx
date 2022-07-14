@@ -7,7 +7,7 @@ export function Button(props: Props) {
   const Button = styled.button`
     background: var(--primary);
     color: var(--light);
-    padding: 8px 16px;
+    padding: 12px 16px;
     min-width: 130px;
     border-radius: 4px;
     text-transform: uppercase;

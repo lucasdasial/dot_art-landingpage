@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import CountUp from "react-countup";
+
 type Props = {
   label: string;
   title: string;
@@ -9,6 +11,8 @@ export function IntroStatus(props: Props) {
   const IntroStatusBox = styled.div`
     min-width: 120px;
   `;
+
+  const n = 123;
 
   const StatusTitle = styled.h1`
     font-size: 2rem;
@@ -25,7 +29,10 @@ export function IntroStatus(props: Props) {
 
   return (
     <IntroStatusBox>
-      <StatusTitle>+ {props.title}</StatusTitle>
+      <StatusTitle>
+        +
+        <CountUp end={parseInt(props.title)} />
+      </StatusTitle>
       <StatusLabel> {props.label}</StatusLabel>
     </IntroStatusBox>
   );

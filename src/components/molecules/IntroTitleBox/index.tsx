@@ -21,9 +21,14 @@ export function IntroTitleBox() {
     margin-bottom: 32px;
   `;
   return (
-    <IntroTitleBox>
+    <IntroTitleBox
+      data-aos="fade-up"
+      data-aos-delay="250"
+      data-aos-duration="1000"
+    >
       <IntroTitle>Descubra novos artistas e suas artes</IntroTitle>
       <IntroSubTitle>Uma nova greção de artistas surgem</IntroSubTitle>
+
       <Button label="Explorar" />
       <IntroStatusGroup />
     </IntroTitleBox>
