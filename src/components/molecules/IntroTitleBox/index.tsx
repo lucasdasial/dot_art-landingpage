@@ -1,7 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 import { Button } from "../../atoms/Button";
-import Subtitle from "../../atoms/Subtitle";
+import { Subtitle } from "../../atoms/SubTitle";
 import { Title } from "../../atoms/Title";
 import { StatusGroup } from "../StatusGroup";
 
