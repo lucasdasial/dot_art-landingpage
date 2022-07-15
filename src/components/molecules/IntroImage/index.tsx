@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 export function IntroImage() {
@@ -5,10 +6,10 @@ export function IntroImage() {
     overflow: hidden;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
     max-width: 400px;
   `;
   const Img = styled.img`
+    width: 100%;
     object-fit: cover;
     border-radius: 8px;
     transition-duration: 600ms;

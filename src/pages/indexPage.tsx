@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { MiniGallery } from "../components/molecules/MiniGallery";
-import { IntroSection } from "../components/organisms/IntroSection";
-import { SubIntroSection } from "../components/organisms/SubIntroSection";
-import { TopSection } from "../components/organisms/TopSection";
+import { SubIntro } from "../components/organisms/SubIntro";
+import { Intro } from "../components/organisms/Intro";
+import { Header } from "../components/organisms/Header";
+import React from "react";
 
 export function InitialPage() {
   const Content = styled.div`
@@ -14,10 +15,10 @@ export function InitialPage() {
 
   return (
     <div>
-      <TopSection />
+      <Header />
       <Content>
-        <IntroSection />
-        <SubIntroSection />
+        <Intro />
+        <SubIntro />
       </Content>
     </div>
   );

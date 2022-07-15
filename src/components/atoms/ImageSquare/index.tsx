@@ -7,7 +7,7 @@ type Props = {
 export function ImageSquare(props: Props) {
   const Image = styled.img`
     width: 100%;
-    max-height: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
     transition: 400ms;

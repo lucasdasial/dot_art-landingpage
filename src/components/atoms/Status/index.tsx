@@ -1,19 +1,17 @@
 import styled from "styled-components";
 
 import CountUp from "react-countup";
+import React from "react";
 
 type Props = {
   label: string;
   title: string;
 };
 
-export function IntroStatus(props: Props) {
+export function Status(props: Props) {
   const IntroStatusBox = styled.div`
     min-width: 120px;
   `;
-
-  const n = 123;
-
   const StatusTitle = styled.h1`
     font-size: 2rem;
     line-height: 38.73px;

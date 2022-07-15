@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { ImageSquare } from "../../atoms/ImageSquare";
 
@@ -5,6 +6,7 @@ export function MiniGallery() {
   const MiniGallery = styled.section`
     display: grid;
     width: 100%;
+    min-width: 490px;
     max-width: 800px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
