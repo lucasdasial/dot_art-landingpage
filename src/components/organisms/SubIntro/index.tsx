@@ -13,10 +13,10 @@ export function SubIntro() {
   `;
 
   const CallAction = styled.div`
-    background-color: azure;
     display: flex;
-    justify-content: end;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     max-width: 400px;
   `;
   return (
