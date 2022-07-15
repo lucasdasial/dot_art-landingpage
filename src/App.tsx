@@ -1,10 +1,10 @@
 import "./styles/global.css";
-import { TopBar } from "./components/molecules/TopBar";
+import { InitialPage } from "./pages/indexPage";
 
 export function App() {
   return (
     <div>
-      <TopBar />
+      <InitialPage />
     </div>
   );
 }

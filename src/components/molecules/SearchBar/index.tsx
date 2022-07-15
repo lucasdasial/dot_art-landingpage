@@ -25,7 +25,7 @@ export function SearchBar() {
 
   return (
     <SearchContainer>
-      <SearchInput placeholder="Search" type="text" />
+      <SearchInput placeholder="Buscar" type="text" />
       <FaSearch />
     </SearchContainer>
   );
