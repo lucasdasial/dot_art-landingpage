@@ -9,6 +9,7 @@ button{
     cursor: pointer;
 }
 body{
+    overflow-x: hidden;
     font-family: 'Inter', sans-serif;
     color: var(--dark);
     background-color: var(--light);
